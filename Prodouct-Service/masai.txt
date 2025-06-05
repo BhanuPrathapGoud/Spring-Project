@@ -1,0 +1,121 @@
+
+
+
+Accounts
+
+"id" : "6838371549a6c9b75c32e935" 
+"Unique_Id" : "AD4582259"
+"Account_Balance_Id" : "6838371549a6c9b75c32e933" FK -> Acount Balance Table (one-one)
+"UserId" :  "664206f81926cf840d7eef43" FK -> User Table.  (one-Many)
+"Report_Side" : "Assets",
+"Account_Type": "General Account",
+"Name": "PE-85 Land And Shed Assest",
+"Account_Group" :  "682841bdafabe0e578773eee" FK -> Account Group  (one-many)
+"refIds": [],
+"Balance_Method": "Balance only", -> true/false
+"Opening_Balance": 0,
+"Credit_Or_Debit": "Db",
+"Company_Code": "674971acfc700a8a78f3fc06" FK-> Company Master one-many
+"Branch_Code" : "674971acfc700a8a78f3fc46" FK -> Banch Master one-many
+"createdAt" : Timestamp
+"updatedAt" : Timestamp
+
+
+
+
+
+ Acount Balance Table (one-one)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "_id": {
+    "$oid": "6838371549a6c9b75c32e935"
+  },
+  "Unique_Id": "AD4582259",
+  "Account_Balance_Id": {
+    "$oid": "6838371549a6c9b75c32e933"
+  },
+  "UserId": {
+    "$oid": "664206f81926cf840d7eef43"
+  },
+  "Report_Side": "Assets",
+  "Description": null,
+  "Account_Type": "General Account",
+  "Name": "PE-85 Land And Shed Assest",
+  "Alternate_Name": null,
+  "Account_Group": {
+    "$oid": "682841bdafabe0e578773eee"
+  },
+  "Account_Group_Name": "Fixed Assets",
+  "refIds": [],
+
+  "Balance_Method": "Balance only",
+  "Opening_Balance": 0,
+  "Credit_Or_Debit": "Db",
+  "Doc_1": null,
+  "Doc_2": null,
+  "Doc_3": null,
+  "Doc_4": null,
+  "Doc_5": null,
+  "TermsAndConditionAgreed": false,
+  "TermsAndConditionAgreedOn": null,
+  "Company_Code": {
+    "$oid": "674971acfc700a8a78f3fc06"
+  },
+  "Branch_Code": {
+    "$oid": "674971acfc700a8a78f3fc46"
+  },
+  "Service_Type": [],
+
+  "Business_Location": {
+    "type": "Point",
+    "coordinates": [
+      0,
+      0
+    ]
+  },
+  "Residential_Location": {
+    "type": "Point",
+    "coordinates": [
+      0,
+      0
+    ]
+  },
+  "Account_Closed": false,
+  "TBB_Rights": false,
+  "createdAt": {
+    "$date": "2025-05-29T10:29:41.857Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-02T11:07:56.480Z"
+  },
+  "__v": 0,
+  "State": null,
+  "Visiting_Card": null
+}
